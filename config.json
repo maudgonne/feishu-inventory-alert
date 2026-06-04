@@ -1,0 +1,13 @@
+{
+    "webhook_url": "https://open.feishu.cn/open-apis/bot/v2/hook/0f6c2224-6b62-4a05-bae6-627408a96536",
+    "csv_file": "data/inventory.csv",
+    "sku_column": "SKU",
+    "current_qty_column": "current_qty",
+    "safe_threshold_column": "safe_threshold",
+    "high_risk_ratio": 0.5,
+    "schedule_time": "16:00",
+    "at_all_on_high_risk": true,
+    "notify_users": [
+        {"name": "马尧", "phone": "15924620748"}
+    ]
+}
